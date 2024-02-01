@@ -23,6 +23,7 @@
 
             <x-input-error :messages="$errors->get('password')" class="mt-2" />
         </div>
+        <div >   <a href="{{  route('socilte.login') }}">github</a>  </div>
 
         <!-- Remember Me -->
         <div class="block mt-4">
